@@ -12,8 +12,6 @@ def main():
   currentHour = now.hour + 18
   currentMinute = now.minute
 
-  print(currentHour, currentMinute)
-
   #TODO:
   #Ask user for hours
   input_hours = int(input("Enter hours to add: "))
