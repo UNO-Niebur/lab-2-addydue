@@ -9,12 +9,12 @@ import random
 def main():
   #Create a list of your responses.
   print("Magic 8 Ball")
-  answers = ("Defintely NOT", "For Sure", "No clue", "Prolly not", "Fairly Likely")
+  answers = ["Defintely NOT", "For Sure", "No clue", "Prolly not", "Fairly Likely"]
   #Prompt the user for their question.
-input("Enter Your Question Here")
+  input("Enter Your Question Here: ")
   #Answer question randomly with one of the options from your earlier list.
-response = random.choice(answers)
-print(responce)
+  response = random.choice(answers)
+  print(response)
 
 if __name__ == '__main__':
   main()
